@@ -1,0 +1,4 @@
+CREATE TABLE kekkei_genkai(
+    id BIGSERIAL PRIMARY KEY,
+    name VARCHAR(255) NOT NULL
+);
