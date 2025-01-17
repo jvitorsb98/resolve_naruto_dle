@@ -39,6 +39,7 @@ BEGIN
             (''Temari'', (SELECT id FROM gender WHERE name = ''Mulher''), (SELECT id FROM bow_premiere WHERE name = ''Exames de Chũnin'')),
             (''Kankurõ'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Exames de Chũnin'')),
             (''Baki'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Exames de Chũnin'')),
+            (''Tayuya'', (SELECT id FROM gender WHERE name = ''Mulher''), (SELECT id FROM bow_premiere WHERE name = ''Exames de Chũnin'')),
 
             --Esmaga konoha
             (''Shikaku Nara'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Esmaga Konoha'')),
@@ -55,8 +56,11 @@ BEGIN
             (''Itachi Uchiha'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Procura a Tsunade'')),
             (''Kisame Hoshigaki'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Procura a Tsunade'')),
             (''Fugaku Uchiha'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Procura a Tsunade'')),
-            (''Mikoto Uchiha'', (SELECT id FROM gender WHERE name = ''Mulher''), (SELECT id FROM bow_premiere WHERE name = ''Procura a Tsunade''));
+            (''Mikoto Uchiha'', (SELECT id FROM gender WHERE name = ''Mulher''), (SELECT id FROM bow_premiere WHERE name = ''Procura a Tsunade'')),
 
+            -- Missão de recuperação do sasuke
+            (''Kimimaro'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Missão de Recuperação de Sasuke'')),
+            (''Black Zetsu'', (SELECT id FROM gender WHERE name = ''Outro''), (SELECT id FROM bow_premiere WHERE name = ''Missão de Recuperação de Sasuke''));
 
 
     END IF;

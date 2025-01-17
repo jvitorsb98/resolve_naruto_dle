@@ -97,6 +97,11 @@ BEGIN
             ((SELECT id FROM "character" WHERE name = ''Baki''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
             ((SELECT id FROM "character" WHERE name = ''Baki''), (SELECT id FROM type_jutsu WHERE name = ''Taijutsu'')),
 
+            ((SELECT id FROM "character" WHERE name = ''Tayuya''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Tayuya''), (SELECT id FROM type_jutsu WHERE name = ''Genjutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Tayuya''), (SELECT id FROM type_jutsu WHERE name = ''Taijutsu'')),
+
+            -- Esmaga Konoha
 
             ((SELECT id FROM "character" WHERE name = ''Shikaku Nara''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
 
@@ -133,7 +138,12 @@ BEGIN
             ((SELECT id FROM "character" WHERE name = ''Itachi Uchiha''), (SELECT id FROM type_jutsu WHERE name = ''Taijutsu'')),
 
             ((SELECT id FROM "character" WHERE name = ''Kisame Hoshigaki''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
-            ((SELECT id FROM "character" WHERE name = ''Kisame Hoshigaki''), (SELECT id FROM type_jutsu WHERE name = ''Taijutsu''));
+            ((SELECT id FROM "character" WHERE name = ''Kisame Hoshigaki''), (SELECT id FROM type_jutsu WHERE name = ''Taijutsu'')),
+
+            -- Missão de recuperação do sasuke
+            ((SELECT id FROM "character" WHERE name = ''Kimimaro''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Kimimaro''), (SELECT id FROM type_jutsu WHERE name = ''Taijutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Black Zetsu''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu''));
 
     END IF;
 END

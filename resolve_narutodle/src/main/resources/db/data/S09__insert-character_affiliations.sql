@@ -50,6 +50,7 @@ BEGIN
             ((SELECT id FROM "character" WHERE name = ''Kabuto Yakushi''), (SELECT id FROM affiliation WHERE name = ''Akatsuki'')),
             ((SELECT id FROM "character" WHERE name = ''Kabuto Yakushi''), (SELECT id FROM affiliation WHERE name = ''Oto'')),
             ((SELECT id FROM "character" WHERE name = ''Kabuto Yakushi''), (SELECT id FROM affiliation WHERE name = ''Konoha'')),
+            ((SELECT id FROM "character" WHERE name = ''Tayuya''), (SELECT id FROM affiliation WHERE name = ''Oto'')),
 
             --Esmaga konoha
             ((SELECT id FROM "character" WHERE name = ''Shikaku Nara''), (SELECT id FROM affiliation WHERE name = ''Konoha'')),
@@ -69,7 +70,12 @@ BEGIN
             ((SELECT id FROM "character" WHERE name = ''Itachi Uchiha''), (SELECT id FROM affiliation WHERE name = ''Konoha'')),
             ((SELECT id FROM "character" WHERE name = ''Itachi Uchiha''), (SELECT id FROM affiliation WHERE name = ''Akatsuki'')),
             ((SELECT id FROM "character" WHERE name = ''Kisame Hoshigaki''), (SELECT id FROM affiliation WHERE name = ''Kiri'')),
-            ((SELECT id FROM "character" WHERE name = ''Kisame Hoshigaki''), (SELECT id FROM affiliation WHERE name = ''Akatsuki''));
+            ((SELECT id FROM "character" WHERE name = ''Kisame Hoshigaki''), (SELECT id FROM affiliation WHERE name = ''Akatsuki'')),
+
+            --Missão de recuperação de Sasuke
+            ((SELECT id FROM "character" WHERE name = ''Kimimaro''), (SELECT id FROM affiliation WHERE name = ''Oto'')),
+            ((SELECT id FROM "character" WHERE name = ''Black Zetsu''), (SELECT id FROM affiliation WHERE name = ''Akatsuki''));
+
 
     END IF;
 END

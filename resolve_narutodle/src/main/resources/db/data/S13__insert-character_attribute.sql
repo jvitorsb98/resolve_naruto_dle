@@ -46,7 +46,9 @@ BEGIN
             ((SELECT id FROM "character" WHERE name = ''Gamatatsu''), (SELECT id FROM attribute WHERE name = ''Convoca um animal'')),
             ((SELECT id FROM "character" WHERE name = ''Katsuyu''), (SELECT id FROM attribute WHERE name = ''Convoca um animal'')),
             ((SELECT id FROM "character" WHERE name = ''Itachi Uchiha''), (SELECT id FROM attribute WHERE name = ''Ninja em fuga'')),
-            ((SELECT id FROM "character" WHERE name = ''Kisame Hoshigaki''), (SELECT id FROM attribute WHERE name = ''Ninja em fuga''));
+            ((SELECT id FROM "character" WHERE name = ''Kisame Hoshigaki''), (SELECT id FROM attribute WHERE name = ''Ninja em fuga'')),
+            --Missão de Recuperação de sasuke
+            ((SELECT id FROM "character" WHERE name = ''Black Zetsu''), (SELECT id FROM attribute WHERE name = ''Jinchũriki''));
 
     END IF;
 END

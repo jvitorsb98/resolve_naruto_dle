@@ -21,8 +21,11 @@ BEGIN
             ((SELECT id FROM "character" WHERE name = ''Hashirama Senju''), (SELECT id FROM kekkei_genkai WHERE name = ''Transformação da natureza'')),
         --Procura a Tsunade
             ((SELECT id FROM "character" WHERE name = ''Itachi Uchiha''), (SELECT id FROM kekkei_genkai WHERE name = ''Dôjutsu'')),
-            ((SELECT id FROM "character" WHERE name = ''Fugaku Uchiha''), (SELECT id FROM kekkei_genkai WHERE name = ''Dôjutsu''));
-
+            ((SELECT id FROM "character" WHERE name = ''Fugaku Uchiha''), (SELECT id FROM kekkei_genkai WHERE name = ''Dôjutsu'')),
+        --Missão de Recuperação de sasuke
+            ((SELECT id FROM "character" WHERE name = ''Black Zetsu''), (SELECT id FROM kekkei_genkai WHERE name = ''Dôjutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Black Zetsu''), (SELECT id FROM kekkei_genkai WHERE name = ''Transformação da natureza'')),
+            ((SELECT id FROM "character" WHERE name = ''Kimimaro''), (SELECT id FROM kekkei_genkai WHERE name = ''Melhoria do corpo''));
 
     END IF;
 END
