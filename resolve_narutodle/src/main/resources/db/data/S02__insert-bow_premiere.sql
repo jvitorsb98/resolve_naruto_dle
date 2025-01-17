@@ -17,7 +17,9 @@ BEGIN
             (''Assalto de Pain''),
             (''Cimeira dos Cinco Kage''),
             (''Quarta Guerra Mundial Shinobi: Contagem descrescente''),
+            (''Quarta Guerra Mundial Shinobi: Confrontação''),
             (''Quarta Guerra Mundial Shinobi: Climax''),
+            (''Nascimeto do jinchũriki de Dez Caudas''),
             (''Kaguya Õtsutsuki ataca'');
     END IF;
 END

@@ -16,6 +16,7 @@ BEGIN
             ((SELECT id FROM "character" WHERE name = ''Kakashi Hatake''), (SELECT id FROM affiliation WHERE name = ''Konoha'')),
             ((SELECT id FROM "character" WHERE name = ''Kurama''), (SELECT id FROM affiliation WHERE name = ''Konoha'')),
             ((SELECT id FROM "character" WHERE name = ''Iruka Umino''), (SELECT id FROM affiliation WHERE name = ''Konoha'')),
+            ((SELECT id FROM "character" WHERE name = ''Teuchi''), (SELECT id FROM affiliation WHERE name = ''Konoha'')),
 
             -- Exames de Chũnin
             ((SELECT id FROM "character" WHERE name = ''Neji Hyũga''), (SELECT id FROM affiliation WHERE name = ''Konoha'')),
@@ -140,8 +141,12 @@ BEGIN
             ((SELECT id FROM "character" WHERE name = ''Ao''), (SELECT id FROM affiliation WHERE name = ''Kiri'')),
             ((SELECT id FROM "character" WHERE name = ''Darui''), (SELECT id FROM affiliation WHERE name = ''Kumo'')),
             ((SELECT id FROM "character" WHERE name = ''Yagura Karatachi''), (SELECT id FROM affiliation WHERE name = ''Kiri'')),
-            ((SELECT id FROM "character" WHERE name = ''Mifune ''), (SELECT id FROM affiliation WHERE name = ''Terra de Ferro''));
-
+            ((SELECT id FROM "character" WHERE name = ''Mifune''), (SELECT id FROM affiliation WHERE name = ''Terra de Ferro'')),
+            -- Quarta Guerra Mundial Shinobi: Contagem descrescente
+            ((SELECT id FROM "character" WHERE name = ''Mito Uzumaki''), (SELECT id FROM affiliation WHERE name = ''Konoha'')),
+            ((SELECT id FROM "character" WHERE name = ''Mito Uzumaki''), (SELECT id FROM affiliation WHERE name = ''Uzushio'')),
+            ((SELECT id FROM "character" WHERE name = ''Utakata''), (SELECT id FROM affiliation WHERE name = ''Kiri'')),
+            ((SELECT id FROM "character" WHERE name = ''Mū''), (SELECT id FROM affiliation WHERE name = ''Iwa''));
 
 
     END IF;

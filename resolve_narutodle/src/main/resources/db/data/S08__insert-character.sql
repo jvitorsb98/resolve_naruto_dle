@@ -13,6 +13,7 @@ BEGIN
             (''Kakashi Hatake'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Prólogo'')),
             (''Kurama'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Prólogo'')),
             (''Iruka Umino'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Prólogo'')),
+            (''Teuchi'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Prólogo'')),
 
             (''Rock Lee'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Exames de Chũnin'')),
             (''Neji Hyũga'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Exames de Chũnin'')),
@@ -58,18 +59,15 @@ BEGIN
             (''Kisame Hoshigaki'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Procura a Tsunade'')),
             (''Fugaku Uchiha'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Procura a Tsunade'')),
             (''Mikoto Uchiha'', (SELECT id FROM gender WHERE name = ''Mulher''), (SELECT id FROM bow_premiere WHERE name = ''Procura a Tsunade'')),
-
             -- Missão de recuperação do sasuke
             (''Kimimaro'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Missão de Recuperação de Sasuke'')),
             (''Black Zetsu'', (SELECT id FROM gender WHERE name = ''Outro''), (SELECT id FROM bow_premiere WHERE name = ''Missão de Recuperação de Sasuke'')),
-
             -- Missão de resgate ao kazekage
             (''Sai'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Missão de Resgate do Kazekage'')),
             (''Sasori'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Missão de Resgate do Kazekage'')),
             (''Deidara'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Missão de Resgate do Kazekage'')),
             (''Danzõ Shimura'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Missão de Resgate do Kazekage'')),
             (''Chiyo'', (SELECT id FROM gender WHERE name = ''Mulher''), (SELECT id FROM bow_premiere WHERE name = ''Missão de Resgate do Kazekage'')),
-
             -- Missão de Reconhecimento da Ponte Tenchi
             (''Yamato'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Missão de Reconhecimento da Ponte Tenchi'')),
             -- Missão de Supressão Akatsuki
@@ -109,11 +107,16 @@ BEGIN
             (''Shisui Uchiha'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Cimeira dos Cinco Kage'')),
             (''Ao'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Cimeira dos Cinco Kage'')),
             (''Darui'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Cimeira dos Cinco Kage'')),
-            (''Ten-Tails'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Cimeira dos Cinco Kage'')),
+            (''Ten-Tails'', (SELECT id FROM gender WHERE name = ''Outro''), (SELECT id FROM bow_premiere WHERE name = ''Cimeira dos Cinco Kage'')),
             (''Yagura Karatachi'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Cimeira dos Cinco Kage'')),
             (''Mifune'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Cimeira dos Cinco Kage'')),
-            (''Mei Terumī'', (SELECT id FROM gender WHERE name = ''Mulher''), (SELECT id FROM bow_premiere WHERE name = ''Cimeira dos Cinco Kage''));
-
+            (''Mei Terumī'', (SELECT id FROM gender WHERE name = ''Mulher''), (SELECT id FROM bow_premiere WHERE name = ''Cimeira dos Cinco Kage'')),
+            (''Indra Ōtsutsuki'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Cimeira dos Cinco Kage'')),
+            (''Ashura Ōtsutsuki'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Cimeira dos Cinco Kage'')),
+            -- Quarta Guerra Mundial Shinobi: Contagem descrescente
+            (''Mito Uzumaki'', (SELECT id FROM gender WHERE name = ''Mulher''), (SELECT id FROM bow_premiere WHERE name = ''Quarta Guerra Mundial Shinobi: Contagem descrescente'')),
+            (''Utakata'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Quarta Guerra Mundial Shinobi: Contagem descrescente'')),
+            (''Mū'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Quarta Guerra Mundial Shinobi: Contagem descrescente''));
 
     END IF;
 END

@@ -51,7 +51,11 @@ BEGIN
             ((SELECT id FROM "character" WHERE name = ''Shisui Uchiha''), (SELECT id FROM kekkei_genkai WHERE name = ''Dôjutsu'')),
             ((SELECT id FROM "character" WHERE name = ''Ao''), (SELECT id FROM kekkei_genkai WHERE name = ''Dôjutsu'')),
             ((SELECT id FROM "character" WHERE name = ''Darui''), (SELECT id FROM kekkei_genkai WHERE name = ''Transformação da natureza'')),
-            ((SELECT id FROM "character" WHERE name = ''Ten-Tails''), (SELECT id FROM kekkei_genkai WHERE name = ''Transformação da natureza''));
+            ((SELECT id FROM "character" WHERE name = ''Ten-Tails''), (SELECT id FROM kekkei_genkai WHERE name = ''Transformação da natureza'')),
+            ((SELECT id FROM "character" WHERE name = ''Ashura Ōtsutsuki''), (SELECT id FROM kekkei_genkai WHERE name = ''Transformação da natureza'')),
+            ((SELECT id FROM "character" WHERE name = ''Indra Ōtsutsuki''), (SELECT id FROM kekkei_genkai WHERE name = ''Dôjutsu'')),
+            -- Quarta Guerra Mundial Shinobi: Contagem descrescente
+            ((SELECT id FROM "character" WHERE name = ''Mū''), (SELECT id FROM kekkei_genkai WHERE name = ''Transformação da natureza''));
 
     END IF;
 END

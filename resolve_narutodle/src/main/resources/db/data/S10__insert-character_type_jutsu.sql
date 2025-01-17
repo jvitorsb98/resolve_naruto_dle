@@ -217,7 +217,18 @@ BEGIN
             ((SELECT id FROM "character" WHERE name = ''Darui''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
             ((SELECT id FROM "character" WHERE name = ''Darui''), (SELECT id FROM type_jutsu WHERE name = ''Taijutsu'')),
             ((SELECT id FROM "character" WHERE name = ''Ten-Tails''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
-            ((SELECT id FROM "character" WHERE name = ''Yagura Karatachi''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu''));
+            ((SELECT id FROM "character" WHERE name = ''Yagura Karatachi''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Indra Ōtsutsuki''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Indra Ōtsutsuki''), (SELECT id FROM type_jutsu WHERE name = ''Genjutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Indra Ōtsutsuki''), (SELECT id FROM type_jutsu WHERE name = ''Taijutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Ashura Ōtsutsuki''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Ashura Ōtsutsuki''), (SELECT id FROM type_jutsu WHERE name = ''Taijutsu'')),
+            -- Quarta Guerra Mundial Shinobi: Contagem descrescente
+            ((SELECT id FROM "character" WHERE name = ''Mito Uzumaki''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Utakata''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Mū''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu''));
+
+
 
     END IF;
 END
