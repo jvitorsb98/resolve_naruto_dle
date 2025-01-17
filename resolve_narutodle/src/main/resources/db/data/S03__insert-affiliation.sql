@@ -13,6 +13,7 @@ BEGIN
             (''Oto''),
             (''Ame''),
             (''Taki''),
+            (''Terra de Ferro''),
             (''Kusa'');
     END IF;
 END

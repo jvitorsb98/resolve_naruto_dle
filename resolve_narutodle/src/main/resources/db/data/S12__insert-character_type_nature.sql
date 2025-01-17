@@ -191,8 +191,31 @@ BEGIN
             ((SELECT id FROM "character" WHERE name = ''A''), (SELECT id FROM type_nature WHERE name = ''Raio'')),
             ((SELECT id FROM "character" WHERE name = ''A''), (SELECT id FROM type_nature WHERE name = ''Água'')),
             ((SELECT id FROM "character" WHERE name = ''Omoi''), (SELECT id FROM type_nature WHERE name = ''Raio'')),
-            ((SELECT id FROM "character" WHERE name = ''Karui''), (SELECT id FROM type_nature WHERE name = ''Raio''));
-
+            ((SELECT id FROM "character" WHERE name = ''Karui''), (SELECT id FROM type_nature WHERE name = ''Raio'')),
+            -- Cimeira dos Cinco Kage
+            ((SELECT id FROM "character" WHERE name = ''Õnoki''), (SELECT id FROM type_nature WHERE name = ''Fogo'')),
+            ((SELECT id FROM "character" WHERE name = ''Õnoki''), (SELECT id FROM type_nature WHERE name = ''Raio'')),
+            ((SELECT id FROM "character" WHERE name = ''Õnoki''), (SELECT id FROM type_nature WHERE name = ''Terra'')),
+            ((SELECT id FROM "character" WHERE name = ''Õnoki''), (SELECT id FROM type_nature WHERE name = ''Vento'')),
+            ((SELECT id FROM "character" WHERE name = ''Mei Terumī''), (SELECT id FROM type_nature WHERE name = ''Fogo'')),
+            ((SELECT id FROM "character" WHERE name = ''Mei Terumī''), (SELECT id FROM type_nature WHERE name = ''Raio'')),
+            ((SELECT id FROM "character" WHERE name = ''Mei Terumī''), (SELECT id FROM type_nature WHERE name = ''Terra'')),
+            ((SELECT id FROM "character" WHERE name = ''Mei Terumī''), (SELECT id FROM type_nature WHERE name = ''Água'')),
+            ((SELECT id FROM "character" WHERE name = ''Chōjūrō''), (SELECT id FROM type_nature WHERE name = ''Água'')),
+            ((SELECT id FROM "character" WHERE name = ''Shisui Uchiha''), (SELECT id FROM type_nature WHERE name = ''Fogo'')),
+            ((SELECT id FROM "character" WHERE name = ''Shisui Uchiha''), (SELECT id FROM type_nature WHERE name = ''Raio'')),
+            ((SELECT id FROM "character" WHERE name = ''Shisui Uchiha''), (SELECT id FROM type_nature WHERE name = ''Vento'')),
+            ((SELECT id FROM "character" WHERE name = ''Ao''), (SELECT id FROM type_nature WHERE name = ''Água'')),
+            ((SELECT id FROM "character" WHERE name = ''Darui''), (SELECT id FROM type_nature WHERE name = ''Raio'')),
+            ((SELECT id FROM "character" WHERE name = ''Darui''), (SELECT id FROM type_nature WHERE name = ''Água'')),
+            ((SELECT id FROM "character" WHERE name = ''Darui''), (SELECT id FROM type_nature WHERE name = ''Vento'')),
+            ((SELECT id FROM "character" WHERE name = ''Ten-Tails''), (SELECT id FROM type_nature WHERE name = ''Fogo'')),
+            ((SELECT id FROM "character" WHERE name = ''Ten-Tails''), (SELECT id FROM type_nature WHERE name = ''Raio'')),
+            ((SELECT id FROM "character" WHERE name = ''Ten-Tails''), (SELECT id FROM type_nature WHERE name = ''Água'')),
+            ((SELECT id FROM "character" WHERE name = ''Ten-Tails''), (SELECT id FROM type_nature WHERE name = ''Terra'')),
+            ((SELECT id FROM "character" WHERE name = ''Ten-Tails''), (SELECT id FROM type_nature WHERE name = ''Vento'')),
+            ((SELECT id FROM "character" WHERE name = ''Yagura Karatachi''), (SELECT id FROM type_nature WHERE name = ''Água'')),
+            ((SELECT id FROM "character" WHERE name = ''Yagura Karatachi''), (SELECT id FROM type_nature WHERE name = ''Vento''));
     END IF;
 END
 ';

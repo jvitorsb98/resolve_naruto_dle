@@ -78,7 +78,10 @@ BEGIN
             -- Batalha entre irmãos
             ((SELECT id FROM "character" WHERE name = ''Killer Bee''), (SELECT id FROM attribute WHERE name = ''Jinchũriki'')),
             -- Assalto de Pain
-            ((SELECT id FROM "character" WHERE name = ''Gyũki''), (SELECT id FROM attribute WHERE name = ''Besta de Calda''));
+            ((SELECT id FROM "character" WHERE name = ''Gyũki''), (SELECT id FROM attribute WHERE name = ''Besta de Calda'')),
+            -- Cimeira dos Cinco Kage
+            ((SELECT id FROM "character" WHERE name = ''Yagura Karatachi''), (SELECT id FROM attribute WHERE name = ''Jinchũriki'')),
+            ((SELECT id FROM "character" WHERE name = ''Ten-Tails''), (SELECT id FROM attribute WHERE name = ''Besta de Calda''));
 
     END IF;
 END

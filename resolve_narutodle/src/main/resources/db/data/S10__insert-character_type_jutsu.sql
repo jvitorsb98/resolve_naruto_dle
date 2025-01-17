@@ -202,7 +202,22 @@ BEGIN
             ((SELECT id FROM "character" WHERE name = ''A''), (SELECT id FROM type_jutsu WHERE name = ''Taijutsu'')),
             ((SELECT id FROM "character" WHERE name = ''Sakumo Hatake''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
             ((SELECT id FROM "character" WHERE name = ''Omoi''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
-            ((SELECT id FROM "character" WHERE name = ''Gyũki''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu''));
+            ((SELECT id FROM "character" WHERE name = ''Gyũki''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
+            -- Cimeira dos Cinco Kage
+            ((SELECT id FROM "character" WHERE name = ''Õnoki''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Mei Terumī''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Mei Terumī''), (SELECT id FROM type_jutsu WHERE name = ''Taijutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Chōjūrō''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Shisui Uchiha''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Shisui Uchiha''), (SELECT id FROM type_jutsu WHERE name = ''Genjutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Shisui Uchiha''), (SELECT id FROM type_jutsu WHERE name = ''Taijutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Ao''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Ao''), (SELECT id FROM type_jutsu WHERE name = ''Genjutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Ao''), (SELECT id FROM type_jutsu WHERE name = ''Taijutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Darui''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Darui''), (SELECT id FROM type_jutsu WHERE name = ''Taijutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Ten-Tails''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Yagura Karatachi''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu''));
 
     END IF;
 END

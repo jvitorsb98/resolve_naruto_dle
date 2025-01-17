@@ -102,7 +102,18 @@ BEGIN
             (''Omoi'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Assalto de Pain'')),
             (''Karui'', (SELECT id FROM gender WHERE name = ''Mulher''), (SELECT id FROM bow_premiere WHERE name = ''Assalto de Pain'')),
             (''Samui'', (SELECT id FROM gender WHERE name = ''Mulher''), (SELECT id FROM bow_premiere WHERE name = ''Assalto de Pain'')),
-            (''Gyũki'', (SELECT id FROM gender WHERE name = ''Outro''), (SELECT id FROM bow_premiere WHERE name = ''Assalto de Pain''));
+            (''Gyũki'', (SELECT id FROM gender WHERE name = ''Outro''), (SELECT id FROM bow_premiere WHERE name = ''Assalto de Pain'')),
+            -- Cimeira dos Cinco Kage
+            (''Õnoki'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Cimeira dos Cinco Kage'')),
+            (''Chōjūrō'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Cimeira dos Cinco Kage'')),
+            (''Shisui Uchiha'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Cimeira dos Cinco Kage'')),
+            (''Ao'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Cimeira dos Cinco Kage'')),
+            (''Darui'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Cimeira dos Cinco Kage'')),
+            (''Ten-Tails'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Cimeira dos Cinco Kage'')),
+            (''Yagura Karatachi'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Cimeira dos Cinco Kage'')),
+            (''Mifune'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Cimeira dos Cinco Kage'')),
+            (''Mei Terumī'', (SELECT id FROM gender WHERE name = ''Mulher''), (SELECT id FROM bow_premiere WHERE name = ''Cimeira dos Cinco Kage''));
+
 
     END IF;
 END

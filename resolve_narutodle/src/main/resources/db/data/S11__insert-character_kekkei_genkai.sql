@@ -44,7 +44,14 @@ BEGIN
             ((SELECT id FROM "character" WHERE name = ''Madara Uchiha''), (SELECT id FROM kekkei_genkai WHERE name = ''Dôjutsu'')),
             ((SELECT id FROM "character" WHERE name = ''Madara Uchiha''), (SELECT id FROM kekkei_genkai WHERE name = ''Transformação da natureza'')),
             -- Batalha entre irmãos
-            ((SELECT id FROM "character" WHERE name = ''Izuna Uchiha''), (SELECT id FROM kekkei_genkai WHERE name = ''Dôjutsu''));
+            ((SELECT id FROM "character" WHERE name = ''Izuna Uchiha''), (SELECT id FROM kekkei_genkai WHERE name = ''Dôjutsu'')),
+            -- Cimeira dos Cinco Kage
+            ((SELECT id FROM "character" WHERE name = ''Õnoki''), (SELECT id FROM kekkei_genkai WHERE name = ''Transformação da natureza'')),
+            ((SELECT id FROM "character" WHERE name = ''Mei Terumī''), (SELECT id FROM kekkei_genkai WHERE name = ''Transformação da natureza'')),
+            ((SELECT id FROM "character" WHERE name = ''Shisui Uchiha''), (SELECT id FROM kekkei_genkai WHERE name = ''Dôjutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Ao''), (SELECT id FROM kekkei_genkai WHERE name = ''Dôjutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Darui''), (SELECT id FROM kekkei_genkai WHERE name = ''Transformação da natureza'')),
+            ((SELECT id FROM "character" WHERE name = ''Ten-Tails''), (SELECT id FROM kekkei_genkai WHERE name = ''Transformação da natureza''));
 
     END IF;
 END
