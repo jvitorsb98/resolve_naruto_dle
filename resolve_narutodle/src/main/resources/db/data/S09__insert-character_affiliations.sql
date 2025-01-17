@@ -84,7 +84,56 @@ BEGIN
             ((SELECT id FROM "character" WHERE name = ''Sasori''), (SELECT id FROM affiliation WHERE name = ''Akatsuki'')),
             ((SELECT id FROM "character" WHERE name = ''Deidara''), (SELECT id FROM affiliation WHERE name = ''Iwa'')),
             ((SELECT id FROM "character" WHERE name = ''Deidara''), (SELECT id FROM affiliation WHERE name = ''Akatsuki'')),
-            ((SELECT id FROM "character" WHERE name = ''Chiyo''), (SELECT id FROM affiliation WHERE name = ''Suna''));
+            ((SELECT id FROM "character" WHERE name = ''Chiyo''), (SELECT id FROM affiliation WHERE name = ''Suna'')),
+
+            -- Missão de Reconhecimento da Ponte Tenchi
+            ((SELECT id FROM "character" WHERE name = ''Yamato''), (SELECT id FROM affiliation WHERE name = ''Konoha'')),
+            -- Missão de Supressão Akatsuki
+            ((SELECT id FROM "character" WHERE name = ''Hidan''), (SELECT id FROM affiliation WHERE name = ''Akatsuki'')),
+            ((SELECT id FROM "character" WHERE name = ''Hidan''), (SELECT id FROM affiliation WHERE name = ''Yu'')),
+            ((SELECT id FROM "character" WHERE name = ''Kakuzu''), (SELECT id FROM affiliation WHERE name = ''Akatsuki'')),
+            ((SELECT id FROM "character" WHERE name = ''Kakuzu''), (SELECT id FROM affiliation WHERE name = ''Taki'')),
+            ((SELECT id FROM "character" WHERE name = ''Yugito Nii''), (SELECT id FROM affiliation WHERE name = ''Kumo'')),
+            -- Kakashi Gaiden
+            ((SELECT id FROM "character" WHERE name = ''Rin Nohara''), (SELECT id FROM affiliation WHERE name = ''Konoha'')),
+            ((SELECT id FROM "character" WHERE name = ''Minato Namikaze''), (SELECT id FROM affiliation WHERE name = ''Konoha'')),
+            ((SELECT id FROM "character" WHERE name = ''Obito Uchiha''), (SELECT id FROM affiliation WHERE name = ''Konoha'')),
+            ((SELECT id FROM "character" WHERE name = ''Obito Uchiha''), (SELECT id FROM affiliation WHERE name = ''Kiri'')),
+            ((SELECT id FROM "character" WHERE name = ''Obito Uchiha''), (SELECT id FROM affiliation WHERE name = ''Akatsuki'')),
+            -- Missão de Perseguição de Itachi
+            ((SELECT id FROM "character" WHERE name = ''Suigetsu Hõzuki''), (SELECT id FROM affiliation WHERE name = ''Akatsuki'')),
+            ((SELECT id FROM "character" WHERE name = ''Suigetsu Hõzuki''), (SELECT id FROM affiliation WHERE name = ''Kiri'')),
+            ((SELECT id FROM "character" WHERE name = ''Suigetsu Hõzuki''), (SELECT id FROM affiliation WHERE name = ''Oto'')),
+            ((SELECT id FROM "character" WHERE name = ''Jũgo''), (SELECT id FROM affiliation WHERE name = ''Akatsuki'')),
+            ((SELECT id FROM "character" WHERE name = ''Jũgo''), (SELECT id FROM affiliation WHERE name = ''Oto'')),
+            ((SELECT id FROM "character" WHERE name = ''Karin''), (SELECT id FROM affiliation WHERE name = ''Akatsuki'')),
+            ((SELECT id FROM "character" WHERE name = ''Karin''), (SELECT id FROM affiliation WHERE name = ''Kusa'')),
+            ((SELECT id FROM "character" WHERE name = ''Karin''), (SELECT id FROM affiliation WHERE name = ''Oto'')),
+            ((SELECT id FROM "character" WHERE name = ''Konan''), (SELECT id FROM affiliation WHERE name = ''Akatsuki'')),
+            ((SELECT id FROM "character" WHERE name = ''Konan''), (SELECT id FROM affiliation WHERE name = ''Ame'')),
+            -- Conto de Jiraya, o Galante
+            ((SELECT id FROM "character" WHERE name = ''Kushina Uzumaki''), (SELECT id FROM affiliation WHERE name = ''Konoha'')),
+            ((SELECT id FROM "character" WHERE name = ''Kushina Uzumaki''), (SELECT id FROM affiliation WHERE name = ''Uzushio'')),
+            ((SELECT id FROM "character" WHERE name = ''Fukasaku''), (SELECT id FROM affiliation WHERE name = ''Konoha'')),
+            ((SELECT id FROM "character" WHERE name = ''Nagato''), (SELECT id FROM affiliation WHERE name = ''Akatsuki'')),
+            ((SELECT id FROM "character" WHERE name = ''Nagato''), (SELECT id FROM affiliation WHERE name = ''Ame'')),
+            ((SELECT id FROM "character" WHERE name = ''Yahiko''), (SELECT id FROM affiliation WHERE name = ''Akatsuki'')),
+            ((SELECT id FROM "character" WHERE name = ''Yahiko''), (SELECT id FROM affiliation WHERE name = ''Ame'')),
+            ((SELECT id FROM "character" WHERE name = ''Hanzõ''), (SELECT id FROM affiliation WHERE name = ''Ame'')),
+            ((SELECT id FROM "character" WHERE name = ''Madara Uchiha''), (SELECT id FROM affiliation WHERE name = ''Konoha'')),
+            ((SELECT id FROM "character" WHERE name = ''Madara Uchiha''), (SELECT id FROM affiliation WHERE name = ''Akatsuki'')),
+            ((SELECT id FROM "character" WHERE name = ''Shima''), (SELECT id FROM affiliation WHERE name = ''Konoha'')),
+            -- Batalha entre irmãos
+            ((SELECT id FROM "character" WHERE name = ''Killer Bee''), (SELECT id FROM affiliation WHERE name = ''Kumo'')),
+            -- Assalto de Pain
+            ((SELECT id FROM "character" WHERE name = ''A''), (SELECT id FROM affiliation WHERE name = ''Kumo'')),
+            ((SELECT id FROM "character" WHERE name = ''Sakumo Hatake''), (SELECT id FROM affiliation WHERE name = ''Konoha'')),
+            ((SELECT id FROM "character" WHERE name = ''Omoi''), (SELECT id FROM affiliation WHERE name = ''Kumo'')),
+            ((SELECT id FROM "character" WHERE name = ''Karui''), (SELECT id FROM affiliation WHERE name = ''Kumo'')),
+            ((SELECT id FROM "character" WHERE name = ''Samui''), (SELECT id FROM affiliation WHERE name = ''Kumo'')),
+            ((SELECT id FROM "character" WHERE name = ''Gyũki''), (SELECT id FROM affiliation WHERE name = ''Kumo''));
+
+
 
     END IF;
 END

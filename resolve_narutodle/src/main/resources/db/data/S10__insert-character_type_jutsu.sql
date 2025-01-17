@@ -157,7 +157,53 @@ BEGIN
             ((SELECT id FROM "character" WHERE name = ''Chiyo''), (SELECT id FROM type_jutsu WHERE name = ''Taijutsu'')),
             ((SELECT id FROM "character" WHERE name = ''Danzõ Shimura''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
             ((SELECT id FROM "character" WHERE name = ''Danzõ Shimura''), (SELECT id FROM type_jutsu WHERE name = ''Genjutsu'')),
-            ((SELECT id FROM "character" WHERE name = ''Danzõ Shimura''), (SELECT id FROM type_jutsu WHERE name = ''Taijutsu''));
+            ((SELECT id FROM "character" WHERE name = ''Danzõ Shimura''), (SELECT id FROM type_jutsu WHERE name = ''Taijutsu'')),
+
+            -- Missão de Reconhecimento da Ponte Tenchi
+            ((SELECT id FROM "character" WHERE name = ''Yamato''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Yamato''), (SELECT id FROM type_jutsu WHERE name = ''Taijutsu'')),
+            -- Missão de Supressão Akatsuki
+            ((SELECT id FROM "character" WHERE name = ''Yugito Nii''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Yugito Nii''), (SELECT id FROM type_jutsu WHERE name = ''Taijutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Kakuzu''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Kakuzu''), (SELECT id FROM type_jutsu WHERE name = ''Taijutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Hidan''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
+
+            -- Kakashi Gaiden
+            ((SELECT id FROM "character" WHERE name = ''Obito Uchiha''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Obito Uchiha''), (SELECT id FROM type_jutsu WHERE name = ''Genjutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Obito Uchiha''), (SELECT id FROM type_jutsu WHERE name = ''Taijutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Minato Namikaze''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Rin Nohara''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
+            -- Missão de Perseguição de Itachi
+            ((SELECT id FROM "character" WHERE name = ''Suigetsu Hõzuki''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Suigetsu Hõzuki''), (SELECT id FROM type_jutsu WHERE name = ''Taijutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Karin''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Konan''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
+            -- Conto de Jiraya, o Galante
+            ((SELECT id FROM "character" WHERE name = ''Kushina Uzumaki''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Nagato''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Yahiko''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Hanzõ''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Fukasaku''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Fukasaku''), (SELECT id FROM type_jutsu WHERE name = ''Genjutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Madara Uchiha''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Madara Uchiha''), (SELECT id FROM type_jutsu WHERE name = ''Genjutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Madara Uchiha''), (SELECT id FROM type_jutsu WHERE name = ''Taijutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Shima''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Shima''), (SELECT id FROM type_jutsu WHERE name = ''Genjutsu'')),
+            -- Batalha entre irmãos
+            ((SELECT id FROM "character" WHERE name = ''Izuna Uchiha''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Izuna Uchiha''), (SELECT id FROM type_jutsu WHERE name = ''Genjutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Killer Bee''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Killer Bee''), (SELECT id FROM type_jutsu WHERE name = ''Taijutsu'')),
+            -- Assalto de Pain
+            ((SELECT id FROM "character" WHERE name = ''A''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''A''), (SELECT id FROM type_jutsu WHERE name = ''Taijutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Sakumo Hatake''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Omoi''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Gyũki''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu''));
+
     END IF;
 END
 ';

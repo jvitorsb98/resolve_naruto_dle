@@ -29,7 +29,23 @@ BEGIN
         -- Missão de resgate ao kazekage
             ((SELECT id FROM "character" WHERE name = ''Danzõ Shimura''), (SELECT id FROM kekkei_genkai WHERE name = ''Dôjutsu'')),
             ((SELECT id FROM "character" WHERE name = ''Danzõ Shimura''), (SELECT id FROM kekkei_genkai WHERE name = ''Transformação da natureza'')),
-            ((SELECT id FROM "character" WHERE name = ''Deidara''), (SELECT id FROM kekkei_genkai WHERE name = ''Transformação da natureza''));
+            ((SELECT id FROM "character" WHERE name = ''Deidara''), (SELECT id FROM kekkei_genkai WHERE name = ''Transformação da natureza'')),
+
+            -- Missão de Reconhecimento da Ponte Tenchi
+            ((SELECT id FROM "character" WHERE name = ''Yamato''), (SELECT id FROM kekkei_genkai WHERE name = ''Transformação da natureza'')),
+
+            -- Kakashi Gaiden
+            ((SELECT id FROM "character" WHERE name = ''Obito Uchiha''), (SELECT id FROM kekkei_genkai WHERE name = ''Dôjutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Obito Uchiha''), (SELECT id FROM kekkei_genkai WHERE name = ''Transformação da natureza'')),
+            -- Missão de Perseguição de Itachi
+            ((SELECT id FROM "character" WHERE name = ''Jũgo''), (SELECT id FROM kekkei_genkai WHERE name = ''Melhoria do corpo'')),
+            -- Conto de Jiraya, o Galante
+            ((SELECT id FROM "character" WHERE name = ''Nagato''), (SELECT id FROM kekkei_genkai WHERE name = ''Dôjutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Madara Uchiha''), (SELECT id FROM kekkei_genkai WHERE name = ''Dôjutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Madara Uchiha''), (SELECT id FROM kekkei_genkai WHERE name = ''Transformação da natureza'')),
+            -- Batalha entre irmãos
+            ((SELECT id FROM "character" WHERE name = ''Izuna Uchiha''), (SELECT id FROM kekkei_genkai WHERE name = ''Dôjutsu''));
+
     END IF;
 END
 ';

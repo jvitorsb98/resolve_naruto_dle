@@ -68,8 +68,41 @@ BEGIN
             (''Sasori'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Missão de Resgate do Kazekage'')),
             (''Deidara'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Missão de Resgate do Kazekage'')),
             (''Danzõ Shimura'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Missão de Resgate do Kazekage'')),
-            (''Chiyo'', (SELECT id FROM gender WHERE name = ''Mulher''), (SELECT id FROM bow_premiere WHERE name = ''Missão de Resgate do Kazekage''));
+            (''Chiyo'', (SELECT id FROM gender WHERE name = ''Mulher''), (SELECT id FROM bow_premiere WHERE name = ''Missão de Resgate do Kazekage'')),
 
+            -- Missão de Reconhecimento da Ponte Tenchi
+            (''Yamato'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Missão de Reconhecimento da Ponte Tenchi'')),
+            -- Missão de Supressão Akatsuki
+            (''Yugito Nii'', (SELECT id FROM gender WHERE name = ''Mulher''), (SELECT id FROM bow_premiere WHERE name = ''Missão de Supressão Akatsuki'')),
+            (''Hidan'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Missão de Supressão Akatsuki'')),
+            (''Kakuzu'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Missão de Supressão Akatsuki'')),
+            -- Kakashi Gaiden
+            (''Rin Nohara'', (SELECT id FROM gender WHERE name = ''Mulher''), (SELECT id FROM bow_premiere WHERE name = ''Kakashi Gaiden'')),
+            (''Obito Uchiha'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Kakashi Gaiden'')),
+            (''Minato Namikaze'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Kakashi Gaiden'')),
+            -- Missão de Perseguição de Itachi
+            (''Suigetsu Hõzuki'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Missão de Perseguição de Itachi'')),
+            (''Jũgo'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Missão de Perseguição de Itachi'')),
+            (''Karin'', (SELECT id FROM gender WHERE name = ''Mulher''), (SELECT id FROM bow_premiere WHERE name = ''Missão de Perseguição de Itachi'')),
+            (''Konan'', (SELECT id FROM gender WHERE name = ''Mulher''), (SELECT id FROM bow_premiere WHERE name = ''Missão de Perseguição de Itachi'')),
+            -- Conto de Jiraya, o Galante
+            (''Kushina Uzumaki'', (SELECT id FROM gender WHERE name = ''Mulher''), (SELECT id FROM bow_premiere WHERE name = ''Conto de Jiraya, o Galante'')),
+            (''Fukasaku'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Conto de Jiraya, o Galante'')),
+            (''Nagato'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Conto de Jiraya, o Galante'')),
+            (''Hanzõ'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Conto de Jiraya, o Galante'')),
+            (''Yahiko'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Conto de Jiraya, o Galante'')),
+            (''Madara Uchiha'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Conto de Jiraya, o Galante'')),
+            (''Shima'', (SELECT id FROM gender WHERE name = ''Mulher''), (SELECT id FROM bow_premiere WHERE name = ''Conto de Jiraya, o Galante'')),
+            -- Batalha entre irmãos
+            (''Izuna Uchiha'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Batalha entre irmãos'')),
+            (''Killer Bee'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Batalha entre irmãos'')),
+            -- Assalto de Pain
+            (''A'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Assalto de Pain'')),
+            (''Sakumo Hatake'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Assalto de Pain'')),
+            (''Omoi'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Assalto de Pain'')),
+            (''Karui'', (SELECT id FROM gender WHERE name = ''Mulher''), (SELECT id FROM bow_premiere WHERE name = ''Assalto de Pain'')),
+            (''Samui'', (SELECT id FROM gender WHERE name = ''Mulher''), (SELECT id FROM bow_premiere WHERE name = ''Assalto de Pain'')),
+            (''Gyũki'', (SELECT id FROM gender WHERE name = ''Outro''), (SELECT id FROM bow_premiere WHERE name = ''Assalto de Pain''));
 
     END IF;
 END

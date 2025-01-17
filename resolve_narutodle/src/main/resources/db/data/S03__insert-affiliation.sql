@@ -9,9 +9,11 @@ BEGIN
             (''Iwa''),
             (''Uzushio''),
             (''Akatsuki''),
+            (''Yu''),
             (''Oto''),
             (''Ame''),
-            (''Taki'');
+            (''Taki''),
+            (''Kusa'');
     END IF;
 END
 ';

@@ -11,6 +11,7 @@ BEGIN
             (''Missão de Reconhecimento da Ponte Tenchi''),
             (''Missão de Supressão Akatsuki''),
             (''Kakashi Gaiden''),
+            (''Missão de Perseguição de Itachi''),
             (''Conto de Jiraya, o Galante''),
             (''Batalha entre irmãos''),
             (''Assalto de Pain''),
