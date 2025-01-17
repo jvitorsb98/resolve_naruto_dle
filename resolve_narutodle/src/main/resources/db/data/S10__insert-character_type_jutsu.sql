@@ -35,6 +35,9 @@ BEGIN
 
             ((SELECT id FROM "character" WHERE name = ''Kurama''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
 
+            ((SELECT id FROM "character" WHERE name = ''Iruka Umino''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Iruka Umino''), (SELECT id FROM type_jutsu WHERE name = ''Genjutsu'')),
+
             --Exames Chunnin
             ((SELECT id FROM "character" WHERE name = ''Rock Lee''), (SELECT id FROM type_jutsu WHERE name = ''Taijutsu'')),
 
@@ -143,8 +146,18 @@ BEGIN
             -- Missão de recuperação do sasuke
             ((SELECT id FROM "character" WHERE name = ''Kimimaro''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
             ((SELECT id FROM "character" WHERE name = ''Kimimaro''), (SELECT id FROM type_jutsu WHERE name = ''Taijutsu'')),
-            ((SELECT id FROM "character" WHERE name = ''Black Zetsu''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu''));
+            ((SELECT id FROM "character" WHERE name = ''Black Zetsu''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
 
+            -- Missão de resgate ao kazekage
+            ((SELECT id FROM "character" WHERE name = ''Sai''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Sai''), (SELECT id FROM type_jutsu WHERE name = ''Taijutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Sasori''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Deidara''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Chiyo''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Chiyo''), (SELECT id FROM type_jutsu WHERE name = ''Taijutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Danzõ Shimura''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Danzõ Shimura''), (SELECT id FROM type_jutsu WHERE name = ''Genjutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Danzõ Shimura''), (SELECT id FROM type_jutsu WHERE name = ''Taijutsu''));
     END IF;
 END
 ';

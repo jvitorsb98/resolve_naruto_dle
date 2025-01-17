@@ -25,8 +25,11 @@ BEGIN
         --Missão de Recuperação de sasuke
             ((SELECT id FROM "character" WHERE name = ''Black Zetsu''), (SELECT id FROM kekkei_genkai WHERE name = ''Dôjutsu'')),
             ((SELECT id FROM "character" WHERE name = ''Black Zetsu''), (SELECT id FROM kekkei_genkai WHERE name = ''Transformação da natureza'')),
-            ((SELECT id FROM "character" WHERE name = ''Kimimaro''), (SELECT id FROM kekkei_genkai WHERE name = ''Melhoria do corpo''));
-
+            ((SELECT id FROM "character" WHERE name = ''Kimimaro''), (SELECT id FROM kekkei_genkai WHERE name = ''Melhoria do corpo'')),
+        -- Missão de resgate ao kazekage
+            ((SELECT id FROM "character" WHERE name = ''Danzõ Shimura''), (SELECT id FROM kekkei_genkai WHERE name = ''Dôjutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Danzõ Shimura''), (SELECT id FROM kekkei_genkai WHERE name = ''Transformação da natureza'')),
+            ((SELECT id FROM "character" WHERE name = ''Deidara''), (SELECT id FROM kekkei_genkai WHERE name = ''Transformação da natureza''));
     END IF;
 END
 ';

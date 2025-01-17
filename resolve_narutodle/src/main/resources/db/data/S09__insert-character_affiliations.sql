@@ -15,6 +15,7 @@ BEGIN
             ((SELECT id FROM "character" WHERE name = ''Ebisu''), (SELECT id FROM affiliation WHERE name = ''Konoha'')),
             ((SELECT id FROM "character" WHERE name = ''Kakashi Hatake''), (SELECT id FROM affiliation WHERE name = ''Konoha'')),
             ((SELECT id FROM "character" WHERE name = ''Kurama''), (SELECT id FROM affiliation WHERE name = ''Konoha'')),
+            ((SELECT id FROM "character" WHERE name = ''Iruka Umino''), (SELECT id FROM affiliation WHERE name = ''Konoha'')),
 
             -- Exames de Chũnin
             ((SELECT id FROM "character" WHERE name = ''Neji Hyũga''), (SELECT id FROM affiliation WHERE name = ''Konoha'')),
@@ -74,8 +75,16 @@ BEGIN
 
             --Missão de recuperação de Sasuke
             ((SELECT id FROM "character" WHERE name = ''Kimimaro''), (SELECT id FROM affiliation WHERE name = ''Oto'')),
-            ((SELECT id FROM "character" WHERE name = ''Black Zetsu''), (SELECT id FROM affiliation WHERE name = ''Akatsuki''));
+            ((SELECT id FROM "character" WHERE name = ''Black Zetsu''), (SELECT id FROM affiliation WHERE name = ''Akatsuki'')),
 
+            -- Missão de resgate ao kazekage
+            ((SELECT id FROM "character" WHERE name = ''Sai''), (SELECT id FROM affiliation WHERE name = ''Konoha'')),
+            ((SELECT id FROM "character" WHERE name = ''Danzõ Shimura''), (SELECT id FROM affiliation WHERE name = ''Konoha'')),
+            ((SELECT id FROM "character" WHERE name = ''Sasori''), (SELECT id FROM affiliation WHERE name = ''Suna'')),
+            ((SELECT id FROM "character" WHERE name = ''Sasori''), (SELECT id FROM affiliation WHERE name = ''Akatsuki'')),
+            ((SELECT id FROM "character" WHERE name = ''Deidara''), (SELECT id FROM affiliation WHERE name = ''Iwa'')),
+            ((SELECT id FROM "character" WHERE name = ''Deidara''), (SELECT id FROM affiliation WHERE name = ''Akatsuki'')),
+            ((SELECT id FROM "character" WHERE name = ''Chiyo''), (SELECT id FROM affiliation WHERE name = ''Suna''));
 
     END IF;
 END

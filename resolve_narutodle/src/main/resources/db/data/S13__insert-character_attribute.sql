@@ -49,6 +49,11 @@ BEGIN
             ((SELECT id FROM "character" WHERE name = ''Kisame Hoshigaki''), (SELECT id FROM attribute WHERE name = ''Ninja em fuga'')),
             --Missão de Recuperação de sasuke
             ((SELECT id FROM "character" WHERE name = ''Black Zetsu''), (SELECT id FROM attribute WHERE name = ''Jinchũriki''));
+            -- Missão de resgate ao kazekage
+            ((SELECT id FROM "character" WHERE name = ''Deidara''), (SELECT id FROM attribute WHERE name = ''Ninja em fuga'')),
+            ((SELECT id FROM "character" WHERE name = ''Deidara''), (SELECT id FROM attribute WHERE name = ''Ninja Mercenário'')),
+            ((SELECT id FROM "character" WHERE name = ''Sasori''), (SELECT id FROM attribute WHERE name = ''Ninja em fuga'')),
+            ((SELECT id FROM "character" WHERE name = ''Chiyo''), (SELECT id FROM attribute WHERE name = ''Ninja médico'')),
 
     END IF;
 END

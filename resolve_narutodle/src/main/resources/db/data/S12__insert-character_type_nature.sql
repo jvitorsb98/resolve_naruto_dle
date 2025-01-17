@@ -36,7 +36,8 @@ BEGIN
             ((SELECT id FROM "character" WHERE name = ''Kakashi Hatake''), (SELECT id FROM type_nature WHERE name = ''Vento'')),
             ((SELECT id FROM "character" WHERE name = ''Kurama''), (SELECT id FROM type_nature WHERE name = ''Fogo'')),
             ((SELECT id FROM "character" WHERE name = ''Kurama''), (SELECT id FROM type_nature WHERE name = ''Vento'')),
-
+            ((SELECT id FROM "character" WHERE name = ''Iruka Umino''), (SELECT id FROM type_nature WHERE name = ''Fogo'')),
+            ((SELECT id FROM "character" WHERE name = ''Iruka Umino''), (SELECT id FROM type_nature WHERE name = ''Água'')),
 
             -- exame chunnin
             ((SELECT id FROM "character" WHERE name = ''Neji Hyũga''), (SELECT id FROM type_nature WHERE name = ''Terra'')),
@@ -116,7 +117,18 @@ BEGIN
             ((SELECT id FROM "character" WHERE name = ''Black Zetsu''), (SELECT id FROM type_nature WHERE name = ''Raio'')),
             ((SELECT id FROM "character" WHERE name = ''Black Zetsu''), (SELECT id FROM type_nature WHERE name = ''Água'')),
             ((SELECT id FROM "character" WHERE name = ''Black Zetsu''), (SELECT id FROM type_nature WHERE name = ''Terra'')),
-            ((SELECT id FROM "character" WHERE name = ''Black Zetsu''), (SELECT id FROM type_nature WHERE name = ''Vento''));
+            ((SELECT id FROM "character" WHERE name = ''Black Zetsu''), (SELECT id FROM type_nature WHERE name = ''Vento'')),
+            -- Missão de resgate ao kazekage
+            ((SELECT id FROM "character" WHERE name = ''Sai''), (SELECT id FROM type_nature WHERE name = ''Fogo'')),
+            ((SELECT id FROM "character" WHERE name = ''Sai''), (SELECT id FROM type_nature WHERE name = ''Água'')),
+            ((SELECT id FROM "character" WHERE name = ''Sai''), (SELECT id FROM type_nature WHERE name = ''Terra'')),
+            ((SELECT id FROM "character" WHERE name = ''Deidara''), (SELECT id FROM type_nature WHERE name = ''Terra'')),
+            ((SELECT id FROM "character" WHERE name = ''Deidara''), (SELECT id FROM type_nature WHERE name = ''Raio'')),
+            ((SELECT id FROM "character" WHERE name = ''Danzõ Shimura''), (SELECT id FROM type_nature WHERE name = ''Fogo'')),
+            ((SELECT id FROM "character" WHERE name = ''Danzõ Shimura''), (SELECT id FROM type_nature WHERE name = ''Água'')),
+            ((SELECT id FROM "character" WHERE name = ''Danzõ Shimura''), (SELECT id FROM type_nature WHERE name = ''Terra'')),
+            ((SELECT id FROM "character" WHERE name = ''Danzõ Shimura''), (SELECT id FROM type_nature WHERE name = ''Vento'')),
+
     END IF;
 END
 ';
