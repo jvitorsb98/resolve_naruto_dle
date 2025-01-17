@@ -73,6 +73,8 @@ BEGIN
 
             ((SELECT id FROM "character" WHERE name = ''Jiraya''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
 
+            ((SELECT id FROM "character" WHERE name = ''Gamabunta''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
+
             ((SELECT id FROM "character" WHERE name = ''Orochimaru''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
             ((SELECT id FROM "character" WHERE name = ''Orochimaru''), (SELECT id FROM type_jutsu WHERE name = ''Taijutsu'')),
 

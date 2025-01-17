@@ -34,6 +34,10 @@ BEGIN
             ((SELECT id FROM "character" WHERE name = ''Hiashi Hyũga''), (SELECT id FROM affiliation WHERE name = ''Konoha'')),
             ((SELECT id FROM "character" WHERE name = ''Homura Mitokado''), (SELECT id FROM affiliation WHERE name = ''Konoha'')),
             ((SELECT id FROM "character" WHERE name = ''Koharu Utatane''), (SELECT id FROM affiliation WHERE name = ''Konoha'')),
+            ((SELECT id FROM "character" WHERE name = ''Jiraya''), (SELECT id FROM affiliation WHERE name = ''Konoha'')),
+            ((SELECT id FROM "character" WHERE name = ''Gamabunta''), (SELECT id FROM affiliation WHERE name = ''Konoha'')),
+
+
 
             ((SELECT id FROM "character" WHERE name = ''Gaara''), (SELECT id FROM affiliation WHERE name = ''Suna'')),
             ((SELECT id FROM "character" WHERE name = ''Temari''), (SELECT id FROM affiliation WHERE name = ''Suna'')),

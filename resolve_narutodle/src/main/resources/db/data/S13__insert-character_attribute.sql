@@ -19,6 +19,7 @@ BEGIN
             -- exame chunnin
 
             ((SELECT id FROM "character" WHERE name = ''Ino Yamanaka''), (SELECT id FROM attribute WHERE name = ''Ninja médico'')),
+            ((SELECT id FROM "character" WHERE name = ''Gamabunta''), (SELECT id FROM attribute WHERE name = ''Convoca um animal'')),
 
             ((SELECT id FROM "character" WHERE name = ''Orochimaru''), (SELECT id FROM attribute WHERE name = ''Ninja em fuga'')),
 

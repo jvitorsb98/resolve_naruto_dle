@@ -55,6 +55,7 @@ BEGIN
             ((SELECT id FROM "character" WHERE name = ''Jiraya''), (SELECT id FROM type_nature WHERE name = ''Fogo'')),
             ((SELECT id FROM "character" WHERE name = ''Jiraya''), (SELECT id FROM type_nature WHERE name = ''Água'')),
             ((SELECT id FROM "character" WHERE name = ''Jiraya''), (SELECT id FROM type_nature WHERE name = ''Vento'')),
+            ((SELECT id FROM "character" WHERE name = ''Gamabunta''), (SELECT id FROM type_nature WHERE name = ''Água'')),
             ((SELECT id FROM "character" WHERE name = ''Orochimaru''), (SELECT id FROM type_nature WHERE name = ''Terra'')),
             ((SELECT id FROM "character" WHERE name = ''Orochimaru''), (SELECT id FROM type_nature WHERE name = ''Fogo'')),
             ((SELECT id FROM "character" WHERE name = ''Orochimaru''), (SELECT id FROM type_nature WHERE name = ''Raio'')),

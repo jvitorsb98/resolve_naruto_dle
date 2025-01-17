@@ -30,6 +30,7 @@ BEGIN
             (''Homura Mitokado'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Exames de Chũnin'')),
             (''Koharu Utatane'', (SELECT id FROM gender WHERE name = ''Mulher''), (SELECT id FROM bow_premiere WHERE name = ''Exames de Chũnin'')),
             (''Jiraya'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Exames de Chũnin'')),
+            (''Gamabunta'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Exames de Chũnin'')),
             (''Orochimaru'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Exames de Chũnin'')),
             (''Kabuto Yakushi'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Exames de Chũnin'')),
             (''Gaara'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Exames de Chũnin'')),
