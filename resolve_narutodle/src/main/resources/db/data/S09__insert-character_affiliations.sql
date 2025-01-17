@@ -37,8 +37,6 @@ BEGIN
             ((SELECT id FROM "character" WHERE name = ''Jiraya''), (SELECT id FROM affiliation WHERE name = ''Konoha'')),
             ((SELECT id FROM "character" WHERE name = ''Gamabunta''), (SELECT id FROM affiliation WHERE name = ''Konoha'')),
 
-
-
             ((SELECT id FROM "character" WHERE name = ''Gaara''), (SELECT id FROM affiliation WHERE name = ''Suna'')),
             ((SELECT id FROM "character" WHERE name = ''Temari''), (SELECT id FROM affiliation WHERE name = ''Suna'')),
             ((SELECT id FROM "character" WHERE name = ''Kankurõ''), (SELECT id FROM affiliation WHERE name = ''Suna'')),
@@ -50,7 +48,15 @@ BEGIN
 
             ((SELECT id FROM "character" WHERE name = ''Kabuto Yakushi''), (SELECT id FROM affiliation WHERE name = ''Akatsuki'')),
             ((SELECT id FROM "character" WHERE name = ''Kabuto Yakushi''), (SELECT id FROM affiliation WHERE name = ''Oto'')),
-            ((SELECT id FROM "character" WHERE name = ''Kabuto Yakushi''), (SELECT id FROM affiliation WHERE name = ''Konoha''));
+            ((SELECT id FROM "character" WHERE name = ''Kabuto Yakushi''), (SELECT id FROM affiliation WHERE name = ''Konoha'')),
+
+            --Esmaga konoha
+            ((SELECT id FROM "character" WHERE name = ''Shikaku Nara''), (SELECT id FROM affiliation WHERE name = ''Konoha'')),
+            ((SELECT id FROM "character" WHERE name = ''Chõza Akimichi''), (SELECT id FROM affiliation WHERE name = ''Konoha'')),
+            ((SELECT id FROM "character" WHERE name = ''Inoichi Yamanaka''), (SELECT id FROM affiliation WHERE name = ''Konoha'')),
+            ((SELECT id FROM "character" WHERE name = ''Hashirama Senju''), (SELECT id FROM affiliation WHERE name = ''Konoha'')),
+            ((SELECT id FROM "character" WHERE name = ''Tobirama Senju''), (SELECT id FROM affiliation WHERE name = ''Konoha'')),
+            ((SELECT id FROM "character" WHERE name = ''Gamakichi''), (SELECT id FROM affiliation WHERE name = ''Konoha''));
     END IF;
 END
 ';

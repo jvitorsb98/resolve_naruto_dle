@@ -29,7 +29,14 @@ BEGIN
 
             ((SELECT id FROM "character" WHERE name = ''Jiraya''), (SELECT id FROM attribute WHERE name = ''Sálvia'')),
 
-            ((SELECT id FROM "character" WHERE name = ''Gaara''), (SELECT id FROM attribute WHERE name = ''Jinchũriki''));
+            ((SELECT id FROM "character" WHERE name = ''Gaara''), (SELECT id FROM attribute WHERE name = ''Jinchũriki'')),
+
+            --Esmaga konoha
+            ((SELECT id FROM "character" WHERE name = ''Hashirama Senju''), (SELECT id FROM attribute WHERE name = ''Sálvia'')),
+
+            ((SELECT id FROM "character" WHERE name = ''Gamakichi''), (SELECT id FROM attribute WHERE name = ''Sálvia'')),
+            ((SELECT id FROM "character" WHERE name = ''Gamakichi''), (SELECT id FROM attribute WHERE name = ''Convoca um animal''));
+
     END IF;
 END
 ';

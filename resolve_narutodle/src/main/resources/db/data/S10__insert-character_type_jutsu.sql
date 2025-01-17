@@ -3,6 +3,8 @@ BEGIN
     IF NOT EXISTS (SELECT 1 FROM character_type_jutsu) THEN
         INSERT INTO character_type_jutsu (id_character, id_type_jutsu)
         VALUES
+
+            --Prólogo
             ((SELECT id FROM "character" WHERE name = ''Naruto Uzumaki''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
             ((SELECT id FROM "character" WHERE name = ''Naruto Uzumaki''), (SELECT id FROM type_jutsu WHERE name = ''Taijutsu'')),
 
@@ -31,6 +33,7 @@ BEGIN
             ((SELECT id FROM "character" WHERE name = ''Kakashi Hatake''), (SELECT id FROM type_jutsu WHERE name = ''Genjutsu'')),
             ((SELECT id FROM "character" WHERE name = ''Kakashi Hatake''), (SELECT id FROM type_jutsu WHERE name = ''Taijutsu'')),
 
+            --Exames Chunnin
             ((SELECT id FROM "character" WHERE name = ''Rock Lee''), (SELECT id FROM type_jutsu WHERE name = ''Taijutsu'')),
 
             ((SELECT id FROM "character" WHERE name = ''Neji Hyũga''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
@@ -90,7 +93,27 @@ BEGIN
             ((SELECT id FROM "character" WHERE name = ''Temari''), (SELECT id FROM type_jutsu WHERE name = ''Taijutsu'')),
 
             ((SELECT id FROM "character" WHERE name = ''Baki''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
-            ((SELECT id FROM "character" WHERE name = ''Baki''), (SELECT id FROM type_jutsu WHERE name = ''Taijutsu''));
+            ((SELECT id FROM "character" WHERE name = ''Baki''), (SELECT id FROM type_jutsu WHERE name = ''Taijutsu'')),
+
+            --Esmaga Konoha
+
+            ((SELECT id FROM "character" WHERE name = ''Shikaku Nara''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
+
+            ((SELECT id FROM "character" WHERE name = ''Chõza Akimichi''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Chõza Akimichi''), (SELECT id FROM type_jutsu WHERE name = ''Taijutsu'')),
+
+            ((SELECT id FROM "character" WHERE name = ''Inoichi Yamanaka''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
+
+            ((SELECT id FROM "character" WHERE name = ''Hashirama Senju''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Hashirama Senju''), (SELECT id FROM type_jutsu WHERE name = ''Genjutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Hashirama Senju''), (SELECT id FROM type_jutsu WHERE name = ''Taijutsu'')),
+
+            ((SELECT id FROM "character" WHERE name = ''Tobirama Senju''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Tobirama Senju''), (SELECT id FROM type_jutsu WHERE name = ''Genjutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Tobirama Senju''), (SELECT id FROM type_jutsu WHERE name = ''Taijutsu'')),
+
+            ((SELECT id FROM "character" WHERE name = ''Gamakichi''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu''));
+
 
     END IF;
 END

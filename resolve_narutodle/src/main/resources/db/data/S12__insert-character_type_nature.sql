@@ -72,7 +72,20 @@ BEGIN
             ((SELECT id FROM "character" WHERE name = ''Kankurõ''), (SELECT id FROM type_nature WHERE name = ''Água'')),
             ((SELECT id FROM "character" WHERE name = ''Kankurõ''), (SELECT id FROM type_nature WHERE name = ''Vento'')),
             ((SELECT id FROM "character" WHERE name = ''Temari''), (SELECT id FROM type_nature WHERE name = ''Vento'')),
-            ((SELECT id FROM "character" WHERE name = ''Baki''), (SELECT id FROM type_nature WHERE name = ''Vento''));
+            ((SELECT id FROM "character" WHERE name = ''Baki''), (SELECT id FROM type_nature WHERE name = ''Vento'')),
+
+            -- Esmaga Konoha
+            ((SELECT id FROM "character" WHERE name = ''Inoichi Yamanaka''), (SELECT id FROM type_nature WHERE name = ''Água'')),
+            ((SELECT id FROM "character" WHERE name = ''Hashirama Senju''), (SELECT id FROM type_nature WHERE name = ''Fogo'')),
+            ((SELECT id FROM "character" WHERE name = ''Hashirama Senju''), (SELECT id FROM type_nature WHERE name = ''Água'')),
+            ((SELECT id FROM "character" WHERE name = ''Hashirama Senju''), (SELECT id FROM type_nature WHERE name = ''Terra'')),
+            ((SELECT id FROM "character" WHERE name = ''Hashirama Senju''), (SELECT id FROM type_nature WHERE name = ''Vento'')),
+            ((SELECT id FROM "character" WHERE name = ''Tobirama Senju''), (SELECT id FROM type_nature WHERE name = ''Fogo'')),
+            ((SELECT id FROM "character" WHERE name = ''Tobirama Senju''), (SELECT id FROM type_nature WHERE name = ''Água'')),
+            ((SELECT id FROM "character" WHERE name = ''Tobirama Senju''), (SELECT id FROM type_nature WHERE name = ''Terra'')),
+            ((SELECT id FROM "character" WHERE name = ''Tobirama Senju''), (SELECT id FROM type_nature WHERE name = ''Vento'')),
+            ((SELECT id FROM "character" WHERE name = ''Gamakichi''), (SELECT id FROM type_nature WHERE name = ''Fogo'')),
+            ((SELECT id FROM "character" WHERE name = ''Gamakichi''), (SELECT id FROM type_nature WHERE name = ''Água''));
     END IF;
 END
 ';
