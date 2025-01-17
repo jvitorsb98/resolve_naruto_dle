@@ -1,0 +1,19 @@
+DO '
+BEGIN
+    IF NOT EXISTS (SELECT 1 FROM character_attribute) THEN
+        INSERT INTO character_attribute (id_character, id_attribute)
+        VALUES
+            ((SELECT id FROM "character" WHERE name = ''Naruto Uzumaki''), (SELECT id FROM attribute WHERE name = ''Jinchũriki'')),
+            ((SELECT id FROM "character" WHERE name = ''Naruto Uzumaki''), (SELECT id FROM attribute WHERE name = ''Sálvia'')),
+
+            ((SELECT id FROM "character" WHERE name = ''Sasuke Uchiha''), (SELECT id FROM attribute WHERE name = ''Ninja em fuga'')),
+
+            ((SELECT id FROM "character" WHERE name = ''Sakura Haruno''), (SELECT id FROM attribute WHERE name = ''Ninja médico'')),
+
+            ((SELECT id FROM "character" WHERE name = ''Zabuza Momochi''), (SELECT id FROM attribute WHERE name = ''Ninja Mercenário'')),
+            ((SELECT id FROM "character" WHERE name = ''Zabuza Momochi''), (SELECT id FROM attribute WHERE name = ''Ninja em fuga'')),
+
+            ((SELECT id FROM "character" WHERE name = ''Haku''), (SELECT id FROM attribute WHERE name = ''Ninja Mercenário''));
+    END IF;
+END
+';
