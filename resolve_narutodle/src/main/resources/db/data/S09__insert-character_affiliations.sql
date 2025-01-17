@@ -14,6 +14,7 @@ BEGIN
             ((SELECT id FROM "character" WHERE name = ''Konohamaru Sarutobi''), (SELECT id FROM affiliation WHERE name = ''Konoha'')),
             ((SELECT id FROM "character" WHERE name = ''Ebisu''), (SELECT id FROM affiliation WHERE name = ''Konoha'')),
             ((SELECT id FROM "character" WHERE name = ''Kakashi Hatake''), (SELECT id FROM affiliation WHERE name = ''Konoha'')),
+            ((SELECT id FROM "character" WHERE name = ''Kurama''), (SELECT id FROM affiliation WHERE name = ''Konoha'')),
 
             -- Exames de Chũnin
             ((SELECT id FROM "character" WHERE name = ''Neji Hyũga''), (SELECT id FROM affiliation WHERE name = ''Konoha'')),
@@ -56,7 +57,20 @@ BEGIN
             ((SELECT id FROM "character" WHERE name = ''Inoichi Yamanaka''), (SELECT id FROM affiliation WHERE name = ''Konoha'')),
             ((SELECT id FROM "character" WHERE name = ''Hashirama Senju''), (SELECT id FROM affiliation WHERE name = ''Konoha'')),
             ((SELECT id FROM "character" WHERE name = ''Tobirama Senju''), (SELECT id FROM affiliation WHERE name = ''Konoha'')),
-            ((SELECT id FROM "character" WHERE name = ''Gamakichi''), (SELECT id FROM affiliation WHERE name = ''Konoha''));
+            ((SELECT id FROM "character" WHERE name = ''Gamakichi''), (SELECT id FROM affiliation WHERE name = ''Konoha'')),
+
+            --Procura a Tsunade
+            ((SELECT id FROM "character" WHERE name = ''Tsunade Senju''), (SELECT id FROM affiliation WHERE name = ''Konoha'')),
+            ((SELECT id FROM "character" WHERE name = ''Shizune''), (SELECT id FROM affiliation WHERE name = ''Konoha'')),
+            ((SELECT id FROM "character" WHERE name = ''Katsuyu''), (SELECT id FROM affiliation WHERE name = ''Konoha'')),
+            ((SELECT id FROM "character" WHERE name = ''Gamatatsu''), (SELECT id FROM affiliation WHERE name = ''Konoha'')),
+            ((SELECT id FROM "character" WHERE name = ''Fugaku Uchiha''), (SELECT id FROM affiliation WHERE name = ''Konoha'')),
+            ((SELECT id FROM "character" WHERE name = ''Mikoto Uchiha''), (SELECT id FROM affiliation WHERE name = ''Konoha'')),
+            ((SELECT id FROM "character" WHERE name = ''Itachi Uchiha''), (SELECT id FROM affiliation WHERE name = ''Konoha'')),
+            ((SELECT id FROM "character" WHERE name = ''Itachi Uchiha''), (SELECT id FROM affiliation WHERE name = ''Akatsuki'')),
+            ((SELECT id FROM "character" WHERE name = ''Kisame Hoshigaki''), (SELECT id FROM affiliation WHERE name = ''Kiri'')),
+            ((SELECT id FROM "character" WHERE name = ''Kisame Hoshigaki''), (SELECT id FROM affiliation WHERE name = ''Akatsuki''));
+
     END IF;
 END
 ';

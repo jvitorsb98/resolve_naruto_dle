@@ -33,6 +33,8 @@ BEGIN
             ((SELECT id FROM "character" WHERE name = ''Kakashi Hatake''), (SELECT id FROM type_jutsu WHERE name = ''Genjutsu'')),
             ((SELECT id FROM "character" WHERE name = ''Kakashi Hatake''), (SELECT id FROM type_jutsu WHERE name = ''Taijutsu'')),
 
+            ((SELECT id FROM "character" WHERE name = ''Kurama''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
+
             --Exames Chunnin
             ((SELECT id FROM "character" WHERE name = ''Rock Lee''), (SELECT id FROM type_jutsu WHERE name = ''Taijutsu'')),
 
@@ -95,7 +97,6 @@ BEGIN
             ((SELECT id FROM "character" WHERE name = ''Baki''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
             ((SELECT id FROM "character" WHERE name = ''Baki''), (SELECT id FROM type_jutsu WHERE name = ''Taijutsu'')),
 
-            --Esmaga Konoha
 
             ((SELECT id FROM "character" WHERE name = ''Shikaku Nara''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
 
@@ -112,8 +113,27 @@ BEGIN
             ((SELECT id FROM "character" WHERE name = ''Tobirama Senju''), (SELECT id FROM type_jutsu WHERE name = ''Genjutsu'')),
             ((SELECT id FROM "character" WHERE name = ''Tobirama Senju''), (SELECT id FROM type_jutsu WHERE name = ''Taijutsu'')),
 
-            ((SELECT id FROM "character" WHERE name = ''Gamakichi''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu''));
+            ((SELECT id FROM "character" WHERE name = ''Gamakichi''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
 
+            --Procura a Tsunade
+
+            ((SELECT id FROM "character" WHERE name = ''Tsunade Senju''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Tsunade Senju''), (SELECT id FROM type_jutsu WHERE name = ''Genjutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Tsunade Senju''), (SELECT id FROM type_jutsu WHERE name = ''Taijutsu'')),
+
+            ((SELECT id FROM "character" WHERE name = ''Shizune''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
+
+            ((SELECT id FROM "character" WHERE name = ''Fugaku Uchiha''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Fugaku Uchiha''), (SELECT id FROM type_jutsu WHERE name = ''Genjutsu'')),
+
+            ((SELECT id FROM "character" WHERE name = ''Mikoto Uchiha''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
+
+            ((SELECT id FROM "character" WHERE name = ''Itachi Uchiha''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Itachi Uchiha''), (SELECT id FROM type_jutsu WHERE name = ''Genjutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Itachi Uchiha''), (SELECT id FROM type_jutsu WHERE name = ''Taijutsu'')),
+
+            ((SELECT id FROM "character" WHERE name = ''Kisame Hoshigaki''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Kisame Hoshigaki''), (SELECT id FROM type_jutsu WHERE name = ''Taijutsu''));
 
     END IF;
 END

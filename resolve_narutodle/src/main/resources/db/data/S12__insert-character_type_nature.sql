@@ -29,6 +29,14 @@ BEGIN
             ((SELECT id FROM "character" WHERE name = ''Konohamaru Sarutobi''), (SELECT id FROM type_nature WHERE name = ''Raio'')),
             ((SELECT id FROM "character" WHERE name = ''Konohamaru Sarutobi''), (SELECT id FROM type_nature WHERE name = ''Vento'')),
             ((SELECT id FROM "character" WHERE name = ''Ebisu''), (SELECT id FROM type_nature WHERE name = ''Fogo'')),
+            ((SELECT id FROM "character" WHERE name = ''Kakashi Hatake''), (SELECT id FROM type_nature WHERE name = ''Terra'')),
+            ((SELECT id FROM "character" WHERE name = ''Kakashi Hatake''), (SELECT id FROM type_nature WHERE name = ''Fogo'')),
+            ((SELECT id FROM "character" WHERE name = ''Kakashi Hatake''), (SELECT id FROM type_nature WHERE name = ''Raio'')),
+            ((SELECT id FROM "character" WHERE name = ''Kakashi Hatake''), (SELECT id FROM type_nature WHERE name = ''Água'')),
+            ((SELECT id FROM "character" WHERE name = ''Kakashi Hatake''), (SELECT id FROM type_nature WHERE name = ''Vento'')),
+            ((SELECT id FROM "character" WHERE name = ''Kurama''), (SELECT id FROM type_nature WHERE name = ''Fogo'')),
+            ((SELECT id FROM "character" WHERE name = ''Kurama''), (SELECT id FROM type_nature WHERE name = ''Vento'')),
+
 
             -- exame chunnin
             ((SELECT id FROM "character" WHERE name = ''Neji Hyũga''), (SELECT id FROM type_nature WHERE name = ''Terra'')),
@@ -78,14 +86,30 @@ BEGIN
             ((SELECT id FROM "character" WHERE name = ''Inoichi Yamanaka''), (SELECT id FROM type_nature WHERE name = ''Água'')),
             ((SELECT id FROM "character" WHERE name = ''Hashirama Senju''), (SELECT id FROM type_nature WHERE name = ''Fogo'')),
             ((SELECT id FROM "character" WHERE name = ''Hashirama Senju''), (SELECT id FROM type_nature WHERE name = ''Água'')),
+            ((SELECT id FROM "character" WHERE name = ''Hashirama Senju''), (SELECT id FROM type_nature WHERE name = ''Raio'')),
             ((SELECT id FROM "character" WHERE name = ''Hashirama Senju''), (SELECT id FROM type_nature WHERE name = ''Terra'')),
             ((SELECT id FROM "character" WHERE name = ''Hashirama Senju''), (SELECT id FROM type_nature WHERE name = ''Vento'')),
             ((SELECT id FROM "character" WHERE name = ''Tobirama Senju''), (SELECT id FROM type_nature WHERE name = ''Fogo'')),
+            ((SELECT id FROM "character" WHERE name = ''Tobirama Senju''), (SELECT id FROM type_nature WHERE name = ''Raio'')),
             ((SELECT id FROM "character" WHERE name = ''Tobirama Senju''), (SELECT id FROM type_nature WHERE name = ''Água'')),
             ((SELECT id FROM "character" WHERE name = ''Tobirama Senju''), (SELECT id FROM type_nature WHERE name = ''Terra'')),
             ((SELECT id FROM "character" WHERE name = ''Tobirama Senju''), (SELECT id FROM type_nature WHERE name = ''Vento'')),
             ((SELECT id FROM "character" WHERE name = ''Gamakichi''), (SELECT id FROM type_nature WHERE name = ''Fogo'')),
-            ((SELECT id FROM "character" WHERE name = ''Gamakichi''), (SELECT id FROM type_nature WHERE name = ''Água''));
+            ((SELECT id FROM "character" WHERE name = ''Gamakichi''), (SELECT id FROM type_nature WHERE name = ''Água'')),
+            -- Procura a Tsunade
+            ((SELECT id FROM "character" WHERE name = ''Tsunade Senju''), (SELECT id FROM type_nature WHERE name = ''Fogo'')),
+            ((SELECT id FROM "character" WHERE name = ''Tsunade Senju''), (SELECT id FROM type_nature WHERE name = ''Raio'')),
+            ((SELECT id FROM "character" WHERE name = ''Tsunade Senju''), (SELECT id FROM type_nature WHERE name = ''Água'')),
+            ((SELECT id FROM "character" WHERE name = ''Tsunade Senju''), (SELECT id FROM type_nature WHERE name = ''Terra'')),
+            ((SELECT id FROM "character" WHERE name = ''Gamatatsu''), (SELECT id FROM type_nature WHERE name = ''Água'')),
+            ((SELECT id FROM "character" WHERE name = ''Itachi Uchiha''), (SELECT id FROM type_nature WHERE name = ''Água'')),
+            ((SELECT id FROM "character" WHERE name = ''Itachi Uchiha''), (SELECT id FROM type_nature WHERE name = ''Fogo'')),
+            ((SELECT id FROM "character" WHERE name = ''Itachi Uchiha''), (SELECT id FROM type_nature WHERE name = ''Vento'')),
+            ((SELECT id FROM "character" WHERE name = ''Kisame Hoshigaki''), (SELECT id FROM type_nature WHERE name = ''Fogo'')),
+            ((SELECT id FROM "character" WHERE name = ''Kisame Hoshigaki''), (SELECT id FROM type_nature WHERE name = ''Água'')),
+            ((SELECT id FROM "character" WHERE name = ''Kisame Hoshigaki''), (SELECT id FROM type_nature WHERE name = ''Terra'')),
+            ((SELECT id FROM "character" WHERE name = ''Kisame Hoshigaki''), (SELECT id FROM type_nature WHERE name = ''Vento'')),
+            ((SELECT id FROM "character" WHERE name = ''Fugaku Uchiha''), (SELECT id FROM type_nature WHERE name = ''Fogo''));
     END IF;
 END
 ';

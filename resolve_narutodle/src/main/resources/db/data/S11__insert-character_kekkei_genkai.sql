@@ -18,7 +18,11 @@ BEGIN
             ((SELECT id FROM "character" WHERE name = ''Kabuto Yakushi''), (SELECT id FROM kekkei_genkai WHERE name = ''Melhoria do corpo'')),
             ((SELECT id FROM "character" WHERE name = ''Gaara''), (SELECT id FROM kekkei_genkai WHERE name = ''Transformação da natureza'')),
         --Esmaga Konoha
-            ((SELECT id FROM "character" WHERE name = ''Hashirama Senju''), (SELECT id FROM kekkei_genkai WHERE name = ''Transformação da natureza''));
+            ((SELECT id FROM "character" WHERE name = ''Hashirama Senju''), (SELECT id FROM kekkei_genkai WHERE name = ''Transformação da natureza'')),
+        --Procura a Tsunade
+            ((SELECT id FROM "character" WHERE name = ''Itachi Uchiha''), (SELECT id FROM kekkei_genkai WHERE name = ''Dôjutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Fugaku Uchiha''), (SELECT id FROM kekkei_genkai WHERE name = ''Dôjutsu''));
+
 
     END IF;
 END
