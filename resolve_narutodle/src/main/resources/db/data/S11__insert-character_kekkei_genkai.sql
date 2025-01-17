@@ -55,7 +55,12 @@ BEGIN
             ((SELECT id FROM "character" WHERE name = ''Ashura Ōtsutsuki''), (SELECT id FROM kekkei_genkai WHERE name = ''Transformação da natureza'')),
             ((SELECT id FROM "character" WHERE name = ''Indra Ōtsutsuki''), (SELECT id FROM kekkei_genkai WHERE name = ''Dôjutsu'')),
             -- Quarta Guerra Mundial Shinobi: Contagem descrescente
-            ((SELECT id FROM "character" WHERE name = ''Mū''), (SELECT id FROM kekkei_genkai WHERE name = ''Transformação da natureza''));
+            ((SELECT id FROM "character" WHERE name = ''Mū''), (SELECT id FROM kekkei_genkai WHERE name = ''Transformação da natureza'')),
+            -- Quarta Guerra Mundial Shinobi: Climax
+            ((SELECT id FROM "character" WHERE name = ''Hagoromo Ōtsutsuki''), (SELECT id FROM kekkei_genkai WHERE name = ''Dôjutsu'')),
+            -- Kaguya Õtsutsuki ataca
+            ((SELECT id FROM "character" WHERE name = ''Kaguya Ōtsutsuki''), (SELECT id FROM kekkei_genkai WHERE name = ''Dôjutsu''));
+
 
     END IF;
 END

@@ -18,6 +18,7 @@ BEGIN
 
             ((SELECT id FROM "character" WHERE name = ''Kurama''), (SELECT id FROM attribute WHERE name = ''Sálvia'')),
             ((SELECT id FROM "character" WHERE name = ''Kurama''), (SELECT id FROM attribute WHERE name = ''Besta de Calda'')),
+            ((SELECT id FROM "character" WHERE name = ''Pakkun''), (SELECT id FROM attribute WHERE name = ''Convoca um animal'')),
 
 
             -- exame chunnin
@@ -80,13 +81,16 @@ BEGIN
             -- Assalto de Pain
             ((SELECT id FROM "character" WHERE name = ''Gyũki''), (SELECT id FROM attribute WHERE name = ''Besta de Calda'')),
             -- Cimeira dos Cinco Kage
-            ((SELECT id FROM "character" WHERE name = ''Yagura Karatachi''), (SELECT id FROM attribute WHERE name = ''Jinchũriki'')),
+            ((SELECT id FROM "character" WHERE name = ''Ashura Ōtsutsuki''), (SELECT id FROM attribute WHERE name = ''Sálvia'')),
             ((SELECT id FROM "character" WHERE name = ''Ten-Tails''), (SELECT id FROM attribute WHERE name = ''Besta de Calda'')),
             ((SELECT id FROM "character" WHERE name = ''Ashura Ōtsutsuki''), (SELECT id FROM attribute WHERE name = ''Sálvia'')),
             -- Quarta Guerra Mundial Shinobi: Contagem descrescente
             ((SELECT id FROM "character" WHERE name = ''Mito Uzumaki''), (SELECT id FROM attribute WHERE name = ''Jinchũriki'')),
             ((SELECT id FROM "character" WHERE name = ''Utakata''), (SELECT id FROM attribute WHERE name = ''Jinchũriki'')),
-            ((SELECT id FROM "character" WHERE name = ''Utakata''), (SELECT id FROM attribute WHERE name = ''Ninja em fuga''));
+            ((SELECT id FROM "character" WHERE name = ''Utakata''), (SELECT id FROM attribute WHERE name = ''Ninja em fuga'')),
+            -- Quarta Guerra Mundial Shinobi: Climax
+            ((SELECT id FROM "character" WHERE name = ''Hagoromo Ōtsutsuki''), (SELECT id FROM attribute WHERE name = ''Sálvia'')),
+            ((SELECT id FROM "character" WHERE name = ''Hagoromo Ōtsutsuki''), (SELECT id FROM attribute WHERE name = ''Jinchũriki''));
 
     END IF;
 END

@@ -17,6 +17,7 @@ BEGIN
             ((SELECT id FROM "character" WHERE name = ''Kurama''), (SELECT id FROM affiliation WHERE name = ''Konoha'')),
             ((SELECT id FROM "character" WHERE name = ''Iruka Umino''), (SELECT id FROM affiliation WHERE name = ''Konoha'')),
             ((SELECT id FROM "character" WHERE name = ''Teuchi''), (SELECT id FROM affiliation WHERE name = ''Konoha'')),
+            ((SELECT id FROM "character" WHERE name = ''Pakkun''), (SELECT id FROM affiliation WHERE name = ''Konoha'')),
 
             -- Exames de Chũnin
             ((SELECT id FROM "character" WHERE name = ''Neji Hyũga''), (SELECT id FROM affiliation WHERE name = ''Konoha'')),
@@ -146,7 +147,14 @@ BEGIN
             ((SELECT id FROM "character" WHERE name = ''Mito Uzumaki''), (SELECT id FROM affiliation WHERE name = ''Konoha'')),
             ((SELECT id FROM "character" WHERE name = ''Mito Uzumaki''), (SELECT id FROM affiliation WHERE name = ''Uzushio'')),
             ((SELECT id FROM "character" WHERE name = ''Utakata''), (SELECT id FROM affiliation WHERE name = ''Kiri'')),
-            ((SELECT id FROM "character" WHERE name = ''Mū''), (SELECT id FROM affiliation WHERE name = ''Iwa''));
+            ((SELECT id FROM "character" WHERE name = ''Mū''), (SELECT id FROM affiliation WHERE name = ''Iwa'')),
+           -- Quarta Guerra Mundial Shinobi: Confrontação
+            ((SELECT id FROM "character" WHERE name = ''Gengetsu Hõzuki''), (SELECT id FROM affiliation WHERE name = ''Kiri'')),
+            -- Quarta Guerra Mundial Shinobi: Climax
+
+            -- Nascimeto do jinchũriki de Dez Caudas
+            ((SELECT id FROM "character" WHERE name = ''Might Duy''), (SELECT id FROM affiliation WHERE name = ''Konoha''));
+            -- Kaguya Õtsutsuki ataca
 
 
     END IF;

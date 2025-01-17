@@ -226,9 +226,17 @@ BEGIN
             -- Quarta Guerra Mundial Shinobi: Contagem descrescente
             ((SELECT id FROM "character" WHERE name = ''Mito Uzumaki''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
             ((SELECT id FROM "character" WHERE name = ''Utakata''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
-            ((SELECT id FROM "character" WHERE name = ''Mū''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu''));
-
-
+            ((SELECT id FROM "character" WHERE name = ''Mū''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
+           -- Quarta Guerra Mundial Shinobi: Confrontação
+            ((SELECT id FROM "character" WHERE name = ''Gengetsu Hõzuki''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Gengetsu Hõzuki''), (SELECT id FROM type_jutsu WHERE name = ''Genjutsu'')),
+            ((SELECT id FROM "character" WHERE name = ''Gengetsu Hõzuki''), (SELECT id FROM type_jutsu WHERE name = ''Taijutsu'')),
+            -- Quarta Guerra Mundial Shinobi: Climax
+            ((SELECT id FROM "character" WHERE name = ''Hahoromo Ōtsutsuki''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu'')),
+            -- Nascimeto do jinchũriki de Dez Caudas
+            ((SELECT id FROM "character" WHERE name = ''Might Duy''), (SELECT id FROM type_jutsu WHERE name = ''Taijutsu'')),
+            -- Kaguya Õtsutsuki ataca
+            ((SELECT id FROM "character" WHERE name = ''Kaguya Ōtsutsuki''), (SELECT id FROM type_jutsu WHERE name = ''Ninjutsu''));
 
     END IF;
 END

@@ -14,6 +14,7 @@ BEGIN
             (''Kurama'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Prólogo'')),
             (''Iruka Umino'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Prólogo'')),
             (''Teuchi'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Prólogo'')),
+            (''Pakkun'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Prólogo'')),
 
             (''Rock Lee'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Exames de Chũnin'')),
             (''Neji Hyũga'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Exames de Chũnin'')),
@@ -116,7 +117,16 @@ BEGIN
             -- Quarta Guerra Mundial Shinobi: Contagem descrescente
             (''Mito Uzumaki'', (SELECT id FROM gender WHERE name = ''Mulher''), (SELECT id FROM bow_premiere WHERE name = ''Quarta Guerra Mundial Shinobi: Contagem descrescente'')),
             (''Utakata'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Quarta Guerra Mundial Shinobi: Contagem descrescente'')),
-            (''Mū'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Quarta Guerra Mundial Shinobi: Contagem descrescente''));
+            (''Mū'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Quarta Guerra Mundial Shinobi: Contagem descrescente'')),
+            -- Quarta Guerra Mundial Shinobi: Confrontação
+            (''Gengetsu Hõzuki'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Quarta Guerra Mundial Shinobi: Confrontação'')),
+            -- Quarta Guerra Mundial Shinobi: Climax
+            (''Hagoromo Ōtsutsuki'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Quarta Guerra Mundial Shinobi: Climax'')),
+            -- Nascimeto do jinchũriki de Dez Caudas
+            (''Might Duy'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Nascimeto do jinchũriki de Dez Caudas'')),
+            -- Kaguya Õtsutsuki ataca
+            (''Kaguya Ōtsutsuki'', (SELECT id FROM gender WHERE name = ''Homem''), (SELECT id FROM bow_premiere WHERE name = ''Kaguya Õtsutsuki ataca''));
+
 
     END IF;
 END
