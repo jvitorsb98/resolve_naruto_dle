@@ -20,7 +20,7 @@ public class CharacterTypeNature {
 
     @ManyToOne(optional = false)
     @JoinColumn(name = "id_character", nullable = false)
-    private Character character;
+    private NarutoCharacter character;
 
     @ManyToOne(optional = false)
     @JoinColumn(name = "id_type_nature", nullable = false)

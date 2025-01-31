@@ -6,13 +6,15 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.List;
+
 @Entity
 @Table(name = "character")
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class Character {
+public class NarutoCharacter {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -28,4 +30,21 @@ public class Character {
     @OneToOne
     @JoinColumn(name = "id_bow_premiere", referencedColumnName = "id", foreignKey = @ForeignKey(name = "fk_character_bow_premiere"), nullable = false)
     private BowPremiere bowPremiere;
+
+    @ManyToMany
+    private List<TypeJutsu> typeJutsus;
+
+    @ManyToMany
+    private List<TypeNature> typeNatures;
+
+   @ManyToMany
+   private List<Attribute> attributes;
+
+   @ManyToMany
+   private List<KekkeiGenkai> kekkeiGenkais;
+
+   @ManyToMany
+   private List<Affiliation> affiliations;
+
+
 }

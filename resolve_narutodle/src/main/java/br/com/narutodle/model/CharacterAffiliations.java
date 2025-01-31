@@ -20,7 +20,7 @@ public class CharacterAffiliations {
 
     @ManyToOne(optional = false)
     @JoinColumn(name = "id_character", nullable = false)
-    private Character character;
+    private NarutoCharacter character;
 
     @ManyToOne(optional = false)
     @JoinColumn(name = "id_affiliation", nullable = false)

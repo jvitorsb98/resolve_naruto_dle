@@ -236,11 +236,11 @@ BEGIN
             ((SELECT id FROM "character" WHERE name = ''Gengetsu Hõzuki''), (SELECT id FROM type_nature WHERE name = ''Água'')),
             ((SELECT id FROM "character" WHERE name = ''Gengetsu Hõzuki''), (SELECT id FROM type_nature WHERE name = ''Terra'')),
 
-            ((SELECT id FROM "character" WHERE name = ''Hahoromo tsutsuki''), (SELECT id FROM type_nature WHERE name = ''Fogo'')),
-            ((SELECT id FROM "character" WHERE name = ''Hahoromo Ōtsutsuki''), (SELECT id FROM type_nature WHERE name = ''Raio'')),
-            ((SELECT id FROM "character" WHERE name = ''Hahoromo Ōtsutsuki''), (SELECT id FROM type_nature WHERE name = ''Água'')),
-            ((SELECT id FROM "character" WHERE name = ''Hahoromo Ōtsutsuki''), (SELECT id FROM type_nature WHERE name = ''Terra'')),
-            ((SELECT id FROM "character" WHERE name = ''Hahoromo Ōtsutsuki''), (SELECT id FROM type_nature WHERE name = ''Vento'')),
+            ((SELECT id FROM "character" WHERE name = ''Hagoromo Ōtsutsuki''), (SELECT id FROM type_nature WHERE name = ''Fogo'')),
+            ((SELECT id FROM "character" WHERE name = ''Hagoromo Ōtsutsuki''), (SELECT id FROM type_nature WHERE name = ''Raio'')),
+            ((SELECT id FROM "character" WHERE name = ''Hagoromo Ōtsutsuki''), (SELECT id FROM type_nature WHERE name = ''Água'')),
+            ((SELECT id FROM "character" WHERE name = ''Hagoromo Ōtsutsuki''), (SELECT id FROM type_nature WHERE name = ''Terra'')),
+            ((SELECT id FROM "character" WHERE name = ''Hagoromo Ōtsutsuki''), (SELECT id FROM type_nature WHERE name = ''Vento'')),
 
             ((SELECT id FROM "character" WHERE name = ''Kaguya Ōtsutsuki''), (SELECT id FROM type_nature WHERE name = ''Fogo'')),
             ((SELECT id FROM "character" WHERE name = ''Kaguya Ōtsutsuki''), (SELECT id FROM type_nature WHERE name = ''Raio'')),
